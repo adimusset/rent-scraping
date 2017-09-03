@@ -1,7 +1,7 @@
 package main
 
 import (
-	"rent/airbnb"
+	"rent-scraping/airbnb"
 )
 
 type Crawler interface {
