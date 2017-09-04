@@ -1,0 +1,9 @@
+package: rent-scraping
+import:
+- package: github.com/DataDog/datadog-go
+  subpackages:
+  - statsd
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
